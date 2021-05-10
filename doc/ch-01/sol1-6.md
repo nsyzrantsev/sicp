@@ -31,4 +31,5 @@ What happens when Alyssa attempts to use this to compute square roots? Explain.
 
 In Lisp, functions are evaluated in applicative order. Therefore evaluation of `sqrt-iter` will lead to infinity recursion. However, Haskell uses lazy evaluation. Thus this function will work correct.
 
+
 [Code](../../src/ch-01/1-6.hs)

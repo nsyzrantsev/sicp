@@ -7,7 +7,6 @@ arithmetic operations are almost always performed with limited precision. This m
 
 ```haskell
 abs' a = if a > 0 then a else -a
-sqr' a = a * a
 average a b = (a + b) / 2
 eps = 0.000000001
 
